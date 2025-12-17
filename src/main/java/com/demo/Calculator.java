@@ -9,7 +9,9 @@ public class Calculator {
     public String getUserType(String type) {
         if (type == "ADMIN") {
             return "Admin";
+        } else {
+            return "User";
         }
-        return "User";
     }
+
 }
