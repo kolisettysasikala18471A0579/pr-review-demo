@@ -21,5 +21,8 @@ public class Calculator {
 
         }
     }
-
+    public void securityIssue() {
+        Object o = null;
+        o.toString();
+    }
 }
