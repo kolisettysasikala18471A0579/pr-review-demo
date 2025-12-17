@@ -3,7 +3,7 @@ package com.demo;
 public class Calculator {
 
     public int divide(int a, int b) {
-        return a / b;
+        return a / 0;
     }
 
     public String getUserType(String type) {
