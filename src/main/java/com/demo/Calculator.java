@@ -14,4 +14,12 @@ public class Calculator {
         }
     }
 
+    public void test() {
+        try {
+            Integer.parseInt("abc");
+        } catch (Exception e) {
+
+        }
+    }
+
 }
